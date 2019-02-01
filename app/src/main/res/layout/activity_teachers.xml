@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.TeachersActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ln_teachers"
+        android:background="@color/colorPrimary"
+       >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_margin="8dp"
+            android:src="@mipmap/logo"
+            android:id="@+id/tb_logo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teachers"
+            android:textColor="#fff"
+            android:textSize="17dp"
+            android:layout_margin="8dp"
+            android:id="@+id/ln_tv_teacher"/>
+
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ln_teachers"
+        android:id="@+id/lv_teachers">
+
+    </ListView>
+
+
+</RelativeLayout>
