@@ -1,4 +1,4 @@
-# onthesheet_admin
+# onthesheet_user
 an android application for my colleagues to help us know the latest updates on sheets and assignments
 there are two versions available for this project.
 the admin version has the access on database to upload,edit and delete the new sheets available on the faculty library.
